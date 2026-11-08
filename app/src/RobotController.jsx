@@ -4,7 +4,7 @@ import mqtt from 'mqtt';
 import { OpusDecoder } from 'opus-decoder';
 import { createEncoder } from 'libopus-wasm';
 
-const MQTT_BROKER = 'wss://broker.emqx.io:8083/mqtt';
+const MQTT_BROKER = 'wss://broker.emqx.io:8084/mqtt';
 const CONTROL_TOPIC = 'phuoccam/control'; // dieu khien robot
 const BATTATCAM = 'phuoccam/mode_control'; // bat tat dieu khien
 const CAMERA_TOPIC = 'phuoccam/photo'; //live video
